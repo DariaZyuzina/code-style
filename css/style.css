@@ -29,7 +29,7 @@ li {
 }
 
 .header {
-    padding-bottom: 128px;
+    padding-bottom: 50px;
 }
 
 .border {
@@ -63,22 +63,21 @@ li {
     color: #ffffff;
 }
 
-.item {
-    background-color: #f2defb;
-    padding: 20px 50px;
-}
-
-.item:hover {
-    background-color: rgb(211, 244, 244);
-}
-
 .item:not(:last-child) {
     margin-bottom: 20px;
 }
 
 .link {
+    display: block;
+    background-color: #f2defb;
+    padding: 20px 50px;
     color: #898080;
     font-size: 25px;
     line-height: 1.2;
     font-weight: 900;
+    /* margin-bottom: 20px; */
+}
+
+.link:hover {
+    background-color: rgb(211, 244, 244);
 }
